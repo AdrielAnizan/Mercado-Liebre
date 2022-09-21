@@ -250,7 +250,11 @@ header p{
     display: flex;
     flex-direction: row;
 }
-@media (min-width: 361px) {
+@media (min-width: 320px) {
+
+    .search-bar{
+        padding: 4px;
+    }
 
     .descripcion {
         display: initial;
